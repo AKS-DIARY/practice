@@ -22,6 +22,8 @@ body{
     font-size: 18px;
     margin-top: -10px;
     border-bottom: 2px solid azure;
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .links{
