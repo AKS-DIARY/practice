@@ -1,0 +1,58 @@
+body{
+    font-family: "Arial",sans-serif;
+    color:azure;
+    text-align: center;
+    background: url("space opera.png") no-repeat center center/cover;
+    height: 100vh;
+}
+
+.header{
+    background-color: #004f66;
+    padding: 10px;
+    font-size: 20px;
+    text-align:left;
+}
+
+.title h1{
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.title p{
+    font-size: 18px;
+    margin-top: -10px;
+    border-bottom: 2px solid azure;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.link {
+  background: rgba(0,0,0,0.6);
+  padding: 20px 40px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  transition: 0.3s;
+}
+
+
+.link.week1:hover{
+     background: #0077b6;
+}
+
+.link.hobby:hover {
+  background: #ef233c;
+}
+
+.footer {
+  background-color: #004f66;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
